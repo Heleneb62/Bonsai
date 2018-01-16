@@ -1,0 +1,81 @@
+body {
+  font-family: sans-serif;
+}
+
+#Home {
+  background-image: url("../img/payments-banner-graphic.png");
+}
+.test {
+  margin-top: 2vh;
+  margin-bottom: 0;
+}
+.pad {
+  padding-left: 0;
+}
+.image img {
+  height: 5.5vh;
+}
+.titre p {
+  font-size: 3vh;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 1vw;
+  color: white;
+  letter-spacing: 0.1em;
+  line-height: 1.79em;
+}
+.titre2, .titre3 {
+  font-size: 2vh;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 2.67em;
+}
+.titre3 {
+    margin-left: 2vw;
+}
+.titre2 p, .titre3 p{
+  margin: 0;
+}
+.back {
+  background: transparent;
+  color: white;
+}
+.divtitre {
+  margin-top: 8em;
+  margin-bottom: 14em;
+}
+.divtitre h1 {
+  color: white;
+}
+.divtitre p {
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 1.2em;
+}
+.divtitre button {
+  color: rgb(125, 125, 174);
+}
+.bulle {
+  z-index: 999;
+  background-color: rgb(121, 121, 171);
+  color: white;
+  border-radius: 50%;
+  padding: 1em;
+  position: relative;
+  top: -1em;
+  box-shadow: 0px 3px 10px gray;
+}
+.apresbulle {
+  position: relative;
+  top: -3em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+.borderight {
+  border-right: 2px solid gray;
+}
