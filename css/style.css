@@ -1,3 +1,43 @@
+@media all and (max-width: 770px) {
+  .liimage {
+    padding-left:15px;
+  }
+  .bouton1 {
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  .borderight {
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+  }
+  .divtitre {
+    margin-top: 4em;
+    margin-bottom: 7em;
+  }
+  .divpaid {
+    text-align: center;
+  }
+}
+@media all and (min-width: 770px) {
+  .bouton1 {
+    padding-right: 5em;
+    padding-left: 5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  .borderight {
+    border-right: 1px solid lightgray;
+  }
+  .divtitre {
+    margin-top: 8em;
+    margin-bottom: 14em;
+  }
+  .divpaid {
+    text-align: left;
+  }
+}
 body {
   font-family: sans-serif;
 }
@@ -15,7 +55,7 @@ body {
 .image img {
   height: 5.5vh;
 }
-.titre p {
+.titre {
   font-size: 3vh;
   margin-right: 0;
   margin-bottom: 0;
@@ -33,7 +73,10 @@ body {
   line-height: 2.67em;
 }
 .titre3 {
-    margin-left: 2vw;
+    margin-left: 15px;
+}
+.titre2 {
+  margin-left: 15px;
 }
 .titre2 p, .titre3 p{
   margin: 0;
@@ -42,10 +85,7 @@ body {
   background: transparent;
   color: white;
 }
-.divtitre {
-  margin-top: 8em;
-  margin-bottom: 14em;
-}
+
 .divtitre h1 {
   color: white;
 }
@@ -66,16 +106,81 @@ body {
   color: white;
   border-radius: 50%;
   padding: 1em;
-  position: relative;
-  top: -1em;
   box-shadow: 0px 3px 10px gray;
 }
+.bubulle {
+  position:fixed;
+  top:90%;
+  right:0;
+  z-index:99;
+}
 .apresbulle {
-  position: relative;
-  top: -3em;
   margin-top: 5em;
   margin-bottom: 5em;
 }
-.borderight {
-  border-right: 2px solid gray;
+.divh2 h2{
+  color: rgb(77, 77, 77);
+  font-size: 18px;
+}
+.divh2 p {
+  color: rgb(127, 113, 109);
+  font-size: 14px;
+  font-weight: 500;
+}
+.audessusprix {
+  margin-top: 2em;
+}
+.divsection3 {
+  border-top: 2px solid lightgray;
+  background-color: rgb(246, 259, 251);
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+.divsection3 p {
+  color: rgb(127, 113, 109);
+  font-size: 1em;
+}
+.divpaid p {
+  color: rgb(127, 113, 109);
+}
+#Section4 {
+  background-color: rgb(76, 83, 92);
+}
+#Section4 h4 {
+  color:white;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+.graph1 {
+  background-color: rgb(124, 213, 239);
+  overflow: hidden;
+}
+.graph1 img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 33em;
+  transform: translateY(6.5em);
+  overflow: hidden;
+}
+.graph2 {
+  background-color: rgb(128, 128, 190);
+  overflow: hidden;
+}
+.graph2 img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 33em;
+  transform: translateY(7em);
+  overflow: hidden;
+}
+.graph3 {
+  background-color: rgb(124, 213, 239);
+  overflow: hidden;
+}
+.graph3 img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 33em;
+  transform: translateY(8em);
+  overflow: hidden;
 }
