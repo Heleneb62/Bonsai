@@ -236,6 +236,9 @@ body {
 .divtitre button {
   color: rgb(125, 125, 174);
 }
+.divtitre button:hover {
+  background-color: white;
+}
 .bulle {
   z-index: 999;
   background-color: rgb(121, 121, 171);
@@ -316,4 +319,26 @@ body {
 .paddo {
   padding-left: 7px;
   padding-right: 7px;
+}
+.divbouton2 button {
+  background-color: rgb(0, 171, 131);
+  color:white;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 0.95em;
+}
+.divbouton2 button:hover {
+  color: rgb(121, 121, 171);
+  background-color: lightgray;
+}
+.divbouton2 {
+  border-top: 1px solid lightgray;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+.divbouton2 h6 {
+  font-size: 1.3em;
+  color: rgb(77, 77, 77);
 }
