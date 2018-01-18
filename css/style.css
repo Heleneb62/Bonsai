@@ -1,3 +1,13 @@
+.navbar-default .navbar-collapse {
+  border:none;
+}
+.navbar-collapse {
+  padding-right: 30px;
+  text-align: right;
+  box-shadow: none;
+  margin-top: -1em;
+}
+
 @media all and (max-width: 992px) {
   .borderight {
     border-right: none;
@@ -302,4 +312,8 @@ body {
   flex-wrap: wrap-reverse;
   align-items: center;
   justify-content: center;
+}
+.paddo {
+  padding-left: 7px;
+  padding-right: 7px;
 }
