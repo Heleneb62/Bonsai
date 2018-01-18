@@ -348,3 +348,25 @@ footer {
 .icones {
   color:rgb(149, 165, 170);
 }
+.footertri h6 {
+  color:rgb(93, 119, 111);
+  font-size: 1.2em;
+}
+.footertri ul {
+  list-style-type:none;
+  padding-left: 0;
+}
+.footertri li {
+  color:rgb(170, 170, 153);
+  font-size: 0.90em;
+}
+.footertri2 p {
+  color: rgb(123,124,121);
+  font-size: 0.80em;
+}
+.strong {
+  color: rgb(170, 170, 153);
+}
+.logofooter img {
+  width: 6.7em;
+}
