@@ -267,7 +267,7 @@
   }
 
 }
-@media all and (min-width: 520px) {
+@media all and (min-width: 768px) {
 
   .graph3 img {
     border-top-left-radius: 15px;
@@ -290,28 +290,27 @@
     transform: translateY(7.7em);
     overflow: hidden;
   }
-
 }
-@media all and (max-width: 520px) {
+@media all and (max-width: 768px) {
 
   .graph3 img {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    width: 35em;
+    width: 18em;
     transform: translateY(5.8em);
     overflow: hidden;
   }
   .graph2 img {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    width: 35em;
+    width: 18em;
     transform: translateY(5.2em);
     overflow: hidden;
   }
   .graph1 img {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    width: 35em;
+    width: 18em;
     transform: translateY(4.7em);
     overflow: hidden;
   }
